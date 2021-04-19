@@ -1,0 +1,688 @@
+
+/*=======================================
+Template Design By WpFreeware Team.
+Author URI : http://www.wpfreeware.com/
+========================================*/
+
+.scrollToTop {
+  background-color: #d00;
+  border:1px solid #d00;
+}
+.scrollToTop:hover, .scrollToTop:focus,.readmore_area a::before,.sl-slider h2> strong,.sl-slider p> strong,
+.single-top-feature .readmore_area a span,.service-icon-effect,.service-icon .service-icon-effect:hover,.single-service>h3 a:hover,.single-service>h3 a:focus,
+.whyChoose-right .media-heading,.whyChoose-right .media:hover .media-icon,.doctors-nav figcaption h2,
+.testimonial-cotent > p span,.testimonial-nav .slick-dots li.slick-active button::before,.blog-comments-box li > h2,.blog-comments-box li span,
+.blog-author > ul > li a:hover,.footer-service li > a:hover,.footer-service li > a span,.contact-info > p span,.footer-copyright>p>a,
+.blog-breadcrumbs-right .breadcrumb > li a:hover,.blog-breadcrumbs-right .breadcrumb > .active,.blog-details blockquote::before,.blog-details blockquote::after,
+.sidebar-widget p>a,.sidebar-widget>ul li>a:hover,.postnav-left:hover .navg-title,.postnav-right:hover .navg-title,.author-name:hover,
+.similar-post .media-body a:hover,.similar-post > h2,.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover,
+.button--itzel .button__icon,.button--itzel > span,#myModal .modal-title,
+.form-submit input:hover,.error-page-area h1,.error-page-area h3{
+  color: #d00;
+}
+.navbar-default {
+  background-color: #d00;
+  border-color: #d00;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus,.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,.readmore_area a span,.single-top-feature,
+.single-top-feature .readmore_area a::before,.testimonial-nav .slick-dots li.slick-active,figure.blog-figure .image-effect::before,
+.footer-middle,.social-share ul li > a,.custom-panel .panel-heading a,.nav-tabs > li > a,a.gallery-iteam .image-effect::before,.comments-title::after,
+.reply-btn,.author-tag  {
+  background-color: #d00;
+}
+.navbar-right .dropdown-menu,.navbar-nav .open .dropdown-menu,
+.wp-form-control:focus {
+  border: 1px solid #23ce8e;
+}
+.navbar-right .dropdown-menu::before {
+  border-left: 1px solid #23ce8e;
+  border-top: 1px solid #23ce8e;
+}
+.nav-arrows span:hover {
+  border-color: #23ce8e;
+  color: #23ce8e;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.line {
+  border-bottom: 2px solid #d00;
+  background: none repeat scroll 0 0 transparent;
+  height: 1px;
+  margin: 0 auto 45px;
+  padding: 5px;
+  position: relative;
+  width: 120px;
+}
+.line::after, .line::before {
+  border: medium solid transparent;
+  content: " ";
+  height: 0;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.line::before {
+  border-width: 9px;
+  margin-left: -6px;
+}
+.line::after {
+  border-top-color: #d00;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.service-icon .service-icon-effect {
+  box-shadow: 0 0 0 4px #23ce8e;
+}
+.service-icon .service-icon-effect:after {
+  box-shadow: 3px 3px #23ce8e;
+}
+.media-icon {
+  background-color: #23ce8e;
+  border: 2px solid #23ce8e;
+}
+.doctors-nav figure button:hover{
+  border-color: #23ce8e;
+  color:#23ce8e;
+}
+.single-doctor-social > a:hover{
+  color: #23ce8e;
+  border-color: #23ce8e;
+}
+.testimonial-img {
+  border: 3px solid #23ce8e;
+}
+.testimonial-nav .slick-dots li,.blog-content .readmore_area a,.wp-form-control,
+.button--itzel::before,.error-page-area .readmore_area a {
+  border: 2px solid #23ce8e;
+}
+.tag-nav a:hover,.tag-nav a:focus{
+  background-color: #d00;
+  border-color: #d00;
+}
+.footer-service li > a{
+  border-bottom: 1px solid #d00;
+}
+.footer-copyright>p>a:hover{
+ border-bottom: 1px solid #23ce8e;
+}
+.footer-social a {
+  border: 1px solid #d00;
+  color: #d00;
+}
+.footer-bottom p a:hover,.footer-bottom p a:focus{
+  border-color: #23ce8e;
+  color: #23ce8e;
+}
+.blog-pagination .pagination > li > a:focus, .blog-pagination .pagination > li > a:hover, .blog-pagination .pagination > li > span:focus,
+.blog-pagination .pagination > li > span:hover {
+  background-color: #23ce8e;
+  border-color: #23ce8e;
+}
+.sidebar-widget h3::after {
+  background: none repeat scroll 0 0 #23ce8e;
+}
+.archives li > a:hover {
+  background-color: #23ce8e;
+  border-color: #23ce8e;
+}
+.postnav-left a:hover, .postnav-right a:hover {
+  border: 1px solid #23ce8e;
+  color: #23ce8e;
+}
+.postnav-left:hover .prev-icon,.postnav-right:hover .next-icon{
+  color: #23ce8e;
+  border-color: #23ce8e;
+}
+.post-author > h3 {
+  border-bottom: 1px solid #23ce8e;
+  color: #23ce8e;
+}
+.author-morepost:hover,.author-morepost:focus {
+  border-bottom: 1px solid #23ce8e;
+  color: #23ce8e;
+}
+.nav-tabs > li > a:hover,.nav-tabs > li > a:focus{
+  background-color: #23ce8e;
+  border-color: #23ce8e;
+}
+.form-submit input {
+  background-color: #23ce8e;
+  border: 1px solid #23ce8e;
+}
+.pswp__caption__center {
+  color: #23ce8e !important;
+}
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+  background-color: #23ce8e !important;
+}
+.comments-pagination li a:hover {
+  background-color:#23ce8e;
+  border-color: #23ce8e;
+}
+#respond input[type="text"]:focus,#respond input[type="email"]:focus,#respond input[type="url"]:focus {
+  border-color: #23ce8e;
+}
+#respond textarea:focus{
+  border-color: #23ce8e;
+}
+.blog-details .table-hover tbody tr:hover{
+  background-color: #23ce8e;
+  border-color: #23ce8e;
+}
+.blog-details>a:hover,
+.blog-details>a:focus,
+.blog-details > p>a:hover,
+.blog-details > p>a:focus{
+  color: #23ce8e;
+  border-bottom: 1px solid #23ce8e;
+}
+.testimonial-parg::before {
+  color: #23ce8e;
+}
+.testimonial-parg:after{
+  color: #23ce8e;
+}
+.top-slider .slick-prev:hover,
+.top-slider .slick-next:hover{
+  border-color: #d00;
+  color: #d00;
+}
+.slider-text h2>strong{
+  color: #d00;
+}
+.slider-text p>strong{
+  /*color: #23ce8e;*/
+}
+
+/*=======================================
+Template Design By WpFreeware Team.
+Author URI : http://www.wpfreeware.com/
+========================================*/
+.login-form {
+		width: 380px;
+    	margin: 30px auto;
+	}
+    .login-form form {
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .login-form .hint-text {
+		color: #777;
+		padding-bottom: 15px;
+		text-align: center;
+    }
+    .form-control, .btn {
+        min-height: 45px;
+        border-radius: 2px;
+    }
+    .login-btn {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .or-seperator {
+        margin: 25px 0 10px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }
+    .social-btn .btn {
+		margin: 10px 0;
+		font-size: 17px;
+		text-align: left;
+		line-height: 31px;
+    }
+	.social-btn .btn i {
+		float: left;
+		margin: 6px 4px 0 44px;
+		min-width: 15px;
+	}
+	.input-group-addon .fa{
+		font-size: 18px;
+	}
+
+.top_left_cont h2 {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 52px;
+    margin: 0 0 26px 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.font_signup{
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top_left_cont p {
+    font-size: 16px;
+    color: #FFFFFFC2;
+    margin: 0 0 30px 0;
+    line-height: 26px;
+}
+
+.top_left_cont {
+    padding: 110px 0;
+}
+
+a.read_more2:hover {
+    background: #fff;
+    color:#d00;
+    border: 1px solid #fff;
+}
+
+a.read_more3:hover {
+    background: #d00;
+    color:#fff;
+    border: 1px solid #d00;
+}
+
+.color_h5{
+	color: #fff;
+}
+
+
+.mt_5 {
+    margin-top: 5% !important;
+}
+
+
+.mt_9 {
+    margin-top: 9% !important;
+}
+
+.ApiContactForm-form-label {
+	font-size: 14px;
+	line-height: 1.2;
+}
+.fl-form label {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-weight: 700;
+}
+.Radio {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Radio-input {
+    position: inherit;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+.Radio-label {
+    cursor: pointer;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    padding-left: 10px;
+    position: relative;
+	font-size: 13px;
+}
+.wpcf7-text-me {
+    height: 54px;
+}
+
+.width-contact{
+	width: 95.6%!important;
+}
+.border_radio{
+	border: 2px solid #23ce8e;
+	margin: 10px 9px;
+	width: 47%;
+}
+.wp-form-control-contact {
+    border-radius: 0px;
+    display: inline;
+    font-size: 15px;
+    float: left;
+    margin: 15px;
+    padding: 10px 12px;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+	border: 2px solid #23ce8e;
+	width: 100%;
+}
+
+
+.w-100 {
+    width: 100% !important;
+}
+
+a.read_more2 {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 13px;
+    width: 178px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    background: transparent;
+	color:#fff;
+	border: 1px solid #fff;
+}
+
+a.read_more3 {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 13px;
+    width: 178px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    background: transparent;
+	color:#d00;
+	border: 1px solid #d00;
+}
+
+.clients-logo-wrapper img {
+    max-width: 126%;
+    border: 2px solid #a10000;
+    border-radius: 16%;
+    padding: 8%;
+}
+
+.img_portfolio {
+   max-width: 100%;
+   height: auto;
+}
+
+.background_floralwhite{
+	background: #f8f8f8;
+}
+
+.ul_language{
+	line-height: 2;
+	font-size: 18px;
+	padding-right: 5px;
+}
+.pt_56{
+	padding-top: 55% !important;
+}
+
+.top_cont_outer {
+    background: #d00;
+}
+
+.top_cont_outer_work{
+    padding: 10px !important;
+    position: relative;
+	background: #f8f8f8;
+}
+
+.top_cont_outer_work2{
+    position: relative;
+	background: #15e15b0f;
+}
+
+.top_left_cont_work {
+    padding: 80px 0;
+}
+
+.h2_work{
+	color: #23CE8E !important;
+}
+
+.disc_li li{
+	list-style: disc !important;
+}
+
+.ml_36 {
+    margin-left: 36px;
+}
+
+#whychooseSection_work {
+    background-color:
+    #f7f7f7;
+    float: left;
+    display: inline;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+#start-post-project {
+    background-color:#f7f7f7;
+    float: left;
+    display: inline;
+    width: 100%;
+    padding: 0px 0px;
+    margin-top: 5% !important;
+}
+
+.PageHowItWorks-howTo-title {
+    font-size: 22px !important;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 12px;
+	color:#fff;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.font_family li{
+    font-size: 18px !important;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 12px;
+	color:#fff;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+/* ================================================================== */
+
+/* e. Portfolio
+
+/* ================================================================== */
+
+#portfolio {
+   padding-top: 156px;
+   padding-bottom: 120px;
+}
+#portfolio .section-head h2 { color: #23ce8e; }
+#portfolio .section-head p.desc { color: #999999; }
+#portfolio .section-head .intro { color: #A3A3A3; }
+
+
+/* Portfolio Content */
+#portfolio-wrapper { margin-top: 36px; }
+#portfolio-wrapper .col {
+   width: 25%;
+   margin-bottom: 36px;
+}
+
+.portfolio-item .item-wrap {
+   background: #fff;
+   overflow: hidden;
+
+   -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+   -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.1);
+   box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.1);
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.portfolio-item .item-wrap a { display: block; }
+.portfolio-item .portfolio-item-meta { padding: 12px 0; }
+.portfolio-item .portfolio-item-meta h5 a {
+   font: 13px/24px montserrat-bold, sans-serif;
+   color: #d00;
+   margin-left: 7%;
+}
+
+/* on hover */
+.portfolio-item:hover .item-wrap { background-color: #d00; }
+.portfolio-item:hover h5 a { color: #fff !important; }
+
+/* portfolio section
+   --------------------------------------------------------------------- */
+    .reveal-modal {
+   	margin-left: -42%;
+		width: 84%;
+   }
+
+/* Reveal Modal Plugin Styles
+---------------------------------------------------*/
+.reveal-modal-bg {
+   position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+.reveal-modal {
+   visibility: hidden;
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+   width: 462px;
+	max-width: 462px;
+	background: #fff;
+	position: absolute;
+	z-index: 101;
+	padding: 0;
+
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.reveal-modal img{
+    width: 100%;
+}
+.reveal-modal .description-box { padding: 18px 36px; }
+.reveal-modal .description-box h4 {
+   font: 15px/24px montserrat-bold, sans-serif;
+	margin-bottom: 18px;
+   color: #111;
+}
+.reveal-modal .description-box p {
+	font: 13px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 18px;
+}
+.reveal-modal .description-box .categories {
+   font: 11px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   display: block;
+}
+.reveal-modal .description-box .categories i {
+   margin-right: 8px;
+}
+.reveal-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.reveal-modal .link-box a {
+   color: #fff;
+	font: 11px/24px opensans-regular, sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.reveal-modal a:hover {	color: #00CCCC; }
+.reveal-modal a.close-reveal-modal { margin-left: 28px; }
+
+
+
+.col {
+   position: relative;
+   padding: 0 18px;
+   float: left;
+}
+
+
+/* removed gutters */
+.row.collapsed .col,
+col.collapsed { padding: 0; }
+
+/* removed nested columns paddings */
+.col .col:first-child { padding-left: 0; }
+.col .col:last-child { padding-right: 0; }
+
+
+@media only screen and (max-width: 836px) {
+	/* portfolio section
+   -------------------------------------------------------------------- */
+   #portfolio #portfolio-wrapper { margin-top: 12px; }
+   #portfolio #portfolio-wrapper .col { width: 33.33333%; }
+
+}
+
+@media only screen and (max-width: 767px) {
+	/* portfolio section
+   --------------------------------------------------------------------- */
+    .reveal-modal {
+   	margin-left: -42%;
+		width: 84%;
+   }
+
+   .col {
+	   width: 100% !important;
+	   float: none;
+	   margin-left: 0;
+	   margin-right: 0;
+      padding: 0 20px;
+    }
+
+	 /* for nested columns */
+   .col .row { width: 100%; }
+   .col .row .col { padding: 0; }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+   .wide .row { max-width: 1180px; }
+   .wide .col { padding: 0 20px; }
+
+}
+
